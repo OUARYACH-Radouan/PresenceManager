@@ -64,7 +64,8 @@ Création d'une interface Dashboard permettant d'accéder aux différentes fonct
 ### TP01 — Interface d'accueil
 
 <div align="center">
-  <img width="300" alt="Interface d'accueil TP01" src="https://github.com/user-attachments/assets/8b63a914-4868-4c1e-88f3-0369dce79874" />
+  <img width="369" height="656" alt="image" src="https://github.com/user-attachments/assets/3fedb5dd-b79b-48b0-bf52-6782f19b7522" />
+
 </div>
 
 ### TP02 — Tableau de bord
