@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#F8FAFC"
+    android:gravity="center">
+
+    <LinearLayout
+        android:id="@+id/layoutAccueil"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:src="@drawable/logo_presence"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/txtTitre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="PrésenceManager"
+            android:textSize="28sp"
+            android:textColor="#1E3A5F"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            />
+
+        <TextView
+            android:id="@+id/txtDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Application de gestion des présences des stagiaires"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:textColor="#2563EB"
+            android:layout_marginTop="12dp"/>
+
+        <Button
+            android:id="@+id/btnCommencer"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Commencer l’appel"
+            android:textColor="#fff"
+            android:backgroundTint="#2563EB"
+            android:layout_marginTop="40dp"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtFooter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" PrésenceManager - Version 1.0"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        android:textColor="#94A3B8"
+        android:layout_marginBottom="12dp"/>
+
+</LinearLayout>
